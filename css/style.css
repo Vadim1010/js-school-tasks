@@ -1,0 +1,77 @@
+.container {
+    width:100%;
+}
+.game__header{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__points, .menu__time{
+    margin-top: -30px;
+}
+
+.btn{
+    background: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: blue;
+}
+.btn--margin{
+    margin: 0 30px;
+}
+
+.points__text, .time__text{
+    margin-bottom: 15px;
+}
+.points__result, .time__result{
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #000;
+}
+.progress--bars{
+    margin-top: 20px;
+}
+.progress {
+    
+    margin-bottom: 10px;
+    background: none;
+    box-shadow: none;
+}
+
+.progress-bar{
+    background: #444;
+}
+
+.game__field{
+    margin-top: 45px;
+    border: 1px solid #444;
+    height: 600px;
+    position: relative;
+}
+
+.game__result{
+    border: 1px solid #444;
+    height: 600px;
+}
+
+.result{
+    text-align: center;
+}
+
+.field__div{
+     border: 1px solid #444;
+ }
+
+.result__list{
+    text-align: left;
+    list-style: none;
+}
